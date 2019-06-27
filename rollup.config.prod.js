@@ -2,9 +2,9 @@ import { uglify } from 'rollup-plugin-uglify'
 import baseConfig from './rollup.config.base'
 
 baseConfig.output = {
-  file: 'dist/example.min.js',
-  format: 'umd',
-  name: 'Example'
+  file: 'dist/{{ fileName }}.min.js',
+  format: '{{ prodFormat }}',
+  name: '{{ expose }}'
 }
 
 baseConfig.plugins.push(uglify())
