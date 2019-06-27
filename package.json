@@ -1,7 +1,7 @@
 {
-  "name": "{{ name }",
+  "name": "{{ name }}",
   "version": "1.0.1",
-  "description": "{{ description }",
+  "description": "{{ description }}",
   "main": "index.js",
   "scripts": {
     "start": "npm run dev",
@@ -10,7 +10,7 @@
     "publish": "npm publish --registry http://registry.npmjs.org",
     "test": "jest"
   },
-  "author": "{{ author }",
+  "author": "{{ author }}",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.4.5",
